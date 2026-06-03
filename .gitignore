@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env.local
+
+# Data & artifacts (not shipped with this repo)
+data/
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.webp
+*.csv
+*.jsonl
+*.db
+*.sqlite
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Outputs
+*.svg
+*.pdf
+pipeline/divide_work.txt
